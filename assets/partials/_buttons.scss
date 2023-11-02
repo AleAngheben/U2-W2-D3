@@ -1,0 +1,9 @@
+$btnColors: $btn1Bg, $btn2Bg, $btn3Bg;
+
+@for $i from 1 through 3 {
+  .button-#{$i} {
+    background-color: nth($btnColors, $i);
+    padding-inline: $measure-4;
+    padding-block: $measure-2;
+  }
+}

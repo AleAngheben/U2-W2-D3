@@ -8,6 +8,24 @@
     opacity: 1;
   }
 }
+.button-1 {
+  background-color: #0e6cff;
+  padding-inline: 2rem;
+  padding-block: 0.5rem;
+}
+
+.button-2 {
+  background-color: #ff8700;
+  padding-inline: 2rem;
+  padding-block: 0.5rem;
+}
+
+.button-3 {
+  background-color: #4caf50;
+  padding-inline: 2rem;
+  padding-block: 0.5rem;
+}
+
 nav {
   display: flex;
 }
@@ -39,6 +57,9 @@ header section {
 }
 header section > img {
   width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.2);
+  border: 1px solid #a7a0a0;
   animation: fadeIn 1s ease forwards;
 }
 header section > h3 {
@@ -79,4 +100,7 @@ main article > .grid {
 }
 main article > .grid > img {
   width: 100%;
+  border-radius: 8px;
+  box-shadow: 6px 9px 20px 8px rgba(0, 0, 0, 0.2);
+  border: none;
 }/*# sourceMappingURL=style.css.map */

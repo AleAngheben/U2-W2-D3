@@ -3,6 +3,7 @@
 @import "mixins";
 @import "animations";
 @import "fonts";
+@import "buttons";
 nav {
   display: flex;
   img {
@@ -32,7 +33,7 @@ header {
     margin-bottom: $measure-4;
     > img {
       width: 200px;
-
+      @include floating($border: 1px solid $headerBorderColor);
       animation: fadeIn 1s ease forwards;
     }
     > h3 {
@@ -73,6 +74,10 @@ main {
 
       > img {
         width: 100%;
+        @include floating(
+          $box-shadow: 6px 9px 20px 8px rgba(0, 0, 0, 0.2),
+          $border: none
+        );
       }
     }
   }
