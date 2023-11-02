@@ -1,0 +1,5 @@
+@mixin header-button($btnColor) {
+  padding-inline: $measure-4;
+  padding-block: $measure-2;
+  background-color: $btnColor;
+}
